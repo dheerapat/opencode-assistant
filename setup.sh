@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cp .opencode/opencode.jsonc.example .opencode/opencode.jsonc
+
 # Target configuration file
 CONFIG=".opencode/opencode.jsonc"
 

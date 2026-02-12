@@ -8,6 +8,20 @@
       "environment": {
         "MEMORY_FILE_PATH": "<PWD>/.opencode/memory.jsonl"
       }
-    }
+    },
+    "brave-search": {
+      "type": "local",
+      "command": [
+        "bunx",
+        "-y",
+        "@brave/brave-search-mcp-server",
+        "--transport",
+        "stdio",
+      ],
+      "enabled": true,
+      "environment": {
+        "BRAVE_API_KEY": "<BRAVE_API_KEY>",
+      },
+    },
   }
 }
