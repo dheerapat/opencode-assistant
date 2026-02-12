@@ -6,7 +6,7 @@
       "command": ["bunx", "-y", "@modelcontextprotocol/server-memory"],
       "enabled": true,
       "environment": {
-        "MEMORY_FILE_PATH": "/home/dheeto/Desktop/opencode_sandbox/.opencode/memory.jsonl"
+        "MEMORY_FILE_PATH": "<PWD>/.opencode/memory.jsonl"
       }
     }
   }
