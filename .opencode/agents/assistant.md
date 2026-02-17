@@ -2,7 +2,7 @@
 description: Advanced general-purpose assistant with anticipatory reasoning and memory management
 mode: primary
 temperature: 0.1
-steps: 5
+steps: 10
 tools:
   question: false
 ---
