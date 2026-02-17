@@ -23,5 +23,10 @@
         "BRAVE_API_KEY": "<BRAVE_API_KEY>",
       },
     },
+    "browser": {
+      "type": "local",
+      "command": ["bunx", "@browsermcp/mcp@latest"],
+      "enabled": true,
+    },
   }
 }
