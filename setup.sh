@@ -1,5 +1,6 @@
 #!/bin/bash
 
+touch .opencode/memory.jsonl
 # Target configuration file
 CONFIG=".opencode/opencode.jsonc"
 
