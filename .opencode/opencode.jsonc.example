@@ -1,5 +1,18 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "assistant": {
+      "mode": "primary",
+      "prompt": "{file:./prompts/assistant.txt}",
+      "tools": {
+        "question": false,
+      },
+      "temperature": 0.1,
+      "steps": 10,
+      "description": "General-purpose assistant",
+    },
+  },
+  "default_agent": "assistant",
   "mcp": {
     "graph-memory": {
       "type": "local",
