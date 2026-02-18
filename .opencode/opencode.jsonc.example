@@ -13,6 +13,10 @@
     },
   },
   "default_agent": "assistant",
+  "permission": {
+    "external_directory": "deny",
+    "doom_loop": "deny",
+  },
   "mcp": {
     "graph-memory": {
       "type": "local",
