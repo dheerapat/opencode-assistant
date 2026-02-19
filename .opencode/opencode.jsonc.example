@@ -40,9 +40,9 @@
         "BRAVE_API_KEY": "<BRAVE_API_KEY>",
       },
     },
-    "browser": {
+    "chrome-devtools": {
       "type": "local",
-      "command": ["bunx", "@browsermcp/mcp@latest"],
+      "command": ["bunx", "chrome-devtools-mcp@latest"],
       "enabled": true,
     },
   }
